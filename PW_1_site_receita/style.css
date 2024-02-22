@@ -45,25 +45,24 @@ align-items: center;
     padding: 15px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-    line-height: 0;
+    
     
 }
-.tp ul{
-   
-    line-height: 0.7cm;
-    
-}
+
 .tp ul li::marker {
  color: hsl(332, 51%, 32%);
 
 }
 .tp ul li{
-    padding-left:  20px; 
+    padding-left:  20px;
+    padding-bottom: 10px; 
 }
 .ingredientes ul{
     font-family:  'Outfit',sans-serif;
-    
     font-size: 16px;
+}
+.ingredientes ul li {
+    padding-bottom: 10px;
 }
 .ingredientes ul li::marker{
     color:hsl(14, 45%, 36%) ;
@@ -71,11 +70,15 @@ align-items: center;
 
 .instru ol {
     font-family:  'Outfit',sans-serif;
-    
+
     font-size: 16px;
 }
 .instru ol li::marker{
+     
     color: hsl(14, 45%, 36%);
+}
+.instru ol li {
+    padding-bottom: 10px;
 }
 
 .nutri table{
@@ -104,6 +107,9 @@ align-items: center;
     border: 0px;
 }
 footer .attribution {
+  margin-top: 10px;
+   padding: 10px;   
+    height: 20px;
     font-size: 14px;
 }
 h2{
@@ -119,4 +125,4 @@ hr{
  
   border:1px solid  hsla(60, 1%, 83%, 0.37);
   
-}
+}}
