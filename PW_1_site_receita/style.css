@@ -1,0 +1,122 @@
+body{
+background-color: hsl(30, 54%, 90%);
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+
+
+}
+.main{
+ 
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  font-style: normal;
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    border-radius: 30px;
+    text-align: left;
+ padding: 50px;
+   
+   
+    
+}
+.main p {
+    font-family:  'Outfit',sans-serif;
+    
+    font-size: 16px;
+}
+.main .omelete{
+ 
+    width: 100%;
+    border-radius: 20px;
+   
+   
+}
+    
+.tp{
+    font-family: 'Outfit',sans-serif;
+   
+    font-size: 16px;
+    
+    padding: 15px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    line-height: 0;
+    
+}
+.tp ul{
+   
+    line-height: 0.7cm;
+    
+}
+.tp ul li::marker {
+ color: hsl(332, 51%, 32%);
+
+}
+.tp ul li{
+    padding-left:  20px; 
+}
+.ingredientes ul{
+    font-family:  'Outfit',sans-serif;
+    
+    font-size: 16px;
+}
+.ingredientes ul li::marker{
+    color:hsl(14, 45%, 36%) ;
+}
+
+.instru ol {
+    font-family:  'Outfit',sans-serif;
+    
+    font-size: 16px;
+}
+.instru ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutri table{
+    width: 100%;
+    font-family:  'Outfit',sans-serif;
+    font-size: 16px;
+    
+    border-collapse: collapse;
+    
+   
+}
+.nutri table td{
+    padding: 30px;
+    
+}
+.nutri table tr{
+    
+    border-bottom: 1px  solid  hsla(60, 1%, 83%, 0.37);
+}
+.nutri table td:nth-child(2){
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+.nutri table tr:last-child{
+  
+    border: 0px;
+}
+footer .attribution {
+    font-size: 14px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+hr{
+    
+ 
+  border:1px solid  hsla(60, 1%, 83%, 0.37);
+  
+}
