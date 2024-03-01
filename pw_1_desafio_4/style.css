@@ -1,0 +1,56 @@
+body{
+    background-image: url(imgs/bg-pattern-top-desktop.svg), url(imgs/bg-pattern-bottom-desktop.svg);
+   
+    background-repeat: no-repeat, no-repeat;
+    background-position:  left bottom , right top;
+    
+  background-size: cover, cover;
+  position:fixed, fixed;
+
+display: inline;
+  
+  
+
+}
+.cert{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 600;
+    background-color:   hsl(300, 24%, 96%) ;
+    width: 430px;
+    padding: 3px 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 10px 10px 850px; 
+   
+}
+.cert p{
+ margin-left: 20px;
+ font-size: 15px;
+}
+.report{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 600;
+    background-color:   hsl(300, 24%, 96%) ;
+    width: 430px;
+    padding: 3px 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 10px 10px 850px; 
+   
+}
+
+
+
+
+
+
+
+   
