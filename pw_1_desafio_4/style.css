@@ -1,0 +1,215 @@
+body{
+    background-image: url(imgs/bg-pattern-top-desktop.svg), url(imgs/bg-pattern-bottom-desktop.svg);
+   margin: 0;
+   padding: 0 10px;
+   height: 100vh;
+
+    background-repeat: no-repeat, no-repeat;
+    background-position:  left top , right bottom;
+ 
+  background-size: 35%,71%;
+  
+
+  display: flex;
+
+  flex-direction: column;
+ align-items: center;
+  font-family: "League Spartan", sans-serif;
+
+}
+
+ 
+.main{
+  
+  width: 100%;
+  padding: 0 10PX;
+ flex-wrap: wrap;
+
+ display: flex;
+ justify-content: center;
+
+ 
+
+}
+
+.avaliar{  
+  max-width:  700PX;
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0px 25px 0PX;
+font-size: 15px;
+
+}
+.cert{
+  
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 600;
+    background-color:   hsl(300, 24%, 96%) ;
+    width: 430px;
+    padding: 3px 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  border-radius: 5px;
+ margin: 0 0px 15px 70PX ;
+   
+}
+.cert p{
+ margin-left: 20px;
+ font-size: 15px;
+}
+.report{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 600;
+    background-color:   hsl(300, 24%, 96%) ;
+    width: 430px;
+    padding: 3px 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 0 15px 90PX;
+   
+   
+}
+
+.report p{
+  margin-left: 20px;
+  font-size: 15px;
+ }
+
+.best{
+  color:hsl(300, 43%, 22%) ;
+  font-weight: 600;
+  background-color:   hsl(300, 24%, 96%) ;
+  width: 430px;
+  padding: 3px 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+text-align: center;
+border-radius: 5px;
+margin-left: 120PX;
+}
+
+.best p{
+  margin-left: 25px;
+  font-size: 15px;
+ }
+
+.title{
+  
+padding-right: 150px;
+max-width: 50%;
+margin: 70px 50px 0 0px;
+
+}
+.title h1{
+  width: 400px;
+  color:hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 40px;
+  
+}
+.title p{
+  width: 400px;
+  font-size: 15px;
+  color:hsl(303, 10%, 53%) ;
+  font-weight: 600;
+}
+ 
+.coment{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100PX;
+  line-height: 20px;
+ margin-left: 50px;
+           
+          
+  
+}
+.Colton{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 300px;
+  color: white;
+  background-color: hsl(300, 43%, 22%);
+  margin: 0 25px 20px 0;
+  height: 200px;
+  border-radius: 10px;
+}
+ .clint{ margin: 5px 0 10px 0;
+  line-height: 20px;
+  height: 50px;
+  color: hsl(333, 80%, 67%);
+}
+.Colton img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.coment strong{
+  color: white;
+}
+.Irene{
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 40px;
+  width: 300px;
+  color: white;
+  background-color: hsl(300, 43%, 22%);
+  margin: 40PX 25px 20px 0;
+  height: 200px;
+  border-radius: 10px;
+}
+.Irene img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+
+  
+
+.Ana{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 300px;
+  height: 200px;
+  color: white;
+  background-color: hsl(300, 43%, 22%);
+  margin: 80PX 25px 20px 0;
+  border-radius: 10px;
+}
+
+.Ana img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+
+footer{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+footer .attribution {
+  margin-top: 10px;
+   padding: 10px;   
+    height: 20px;
+    font-size: 14px;
+}
+   
